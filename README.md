@@ -122,3 +122,15 @@ That would return the action `{ type: 'ADD_TODO', todo: 'buy groceries' }`,
 which we then send to the dispatch function.  
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/redux-action-creators'>Redux Action Creators</a> on Learn.co and start learning to code for free.</p>
+
+
+* Ryans Notes
+
+```javascript
+function addTodo(todo) {
+  return {
+    type: 'ADD_TODO',
+    todo: 'buy groceries'
+  }
+}
+```
